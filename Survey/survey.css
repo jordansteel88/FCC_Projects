@@ -1,0 +1,48 @@
+body {
+/*	background: linear-gradient(to right, #4e4376, #2b5876);*/
+	background-image: url(https://www.photos-public-domain.com/wp-content/uploads/2012/07/sheet-music-texture.jpg);
+	color: #e9f5f7;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+#title {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 2rem;
+}
+
+#description {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#container{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 1.25rem;
+	background: linear-gradient(to right, #1f1c2c, #928dab);
+	padding: 20px;
+}
+
+#container p {
+	text-decoration: underline;
+}
+
+#prim-inst label {
+	margin-bottom: 0;
+}
+
+input, #dropdown, text-area {
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+
+input[type="radio"] {
+	margin-left: 0;
+	margin-right: 20px;
+}
+

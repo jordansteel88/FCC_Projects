@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Music Survey</title>
+	<link rel="stylesheet" type="text/css" href="survey.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+	<h1 id="title">Musician Survey Form</h1>
+	<p id="description">How does learning more about music affect your musical preferences?</p>
+</header>
+
+<div id="container">
+	<form id="survey-form">
+		<div id="form-group">
+			<label id="name-label">Name</label>
+			<br>
+			<input id="name" type="text" placeholder="eg. Ludwig van Beethoven" size="35" required="">
+		</div>
+		<div id="form-group">
+			<label id="email-label">Email</label>
+			<br>
+			<input id="email" type="email" placeholder="eg. ludwigvan1770@gmail.com" size="35" required="">
+		</div>
+		<div id="form-group">
+			<label id="number-label">Age (optional)</label>
+			<br>
+			<input id="number" type="number" placeholder="1-120" min="1" max="120" size="20">
+		</div>
+		<div id="form-group">
+			<label id="dropdown-label">What level of musical training do you have?</label>
+			<br>
+			<select id="dropdown">
+				<option>None/Self-taught</option>
+				<option>Some Lessons</option>
+				<option>Some Classes</option>
+				<option>Music Curriculum</option>
+				<option>Post-Secondary Degree</option>
+			</select>
+		</div>
+		<div>
+			<p>Select all of the genres of music that you listen to regularly:</p>
+				<input type="checkbox" id="rock" name="rock" value="rock">
+					<label for="rock">Rock/Blues/Alternative</label>
+					<br>
+				<input type="checkbox" id="country" name="country" value="country">
+					<label for="country">Country</label>
+					<br>
+				<input type="checkbox" id="funk" name="funk" value="funk">
+					<label for="funk">Funk</label>
+					<br>
+				<input type="checkbox" id="soul" name="soul" value="soul">
+					<label for="soul">Soul/R&B</label>
+					<br>
+				<input type="checkbox" id="rap" name="rap" value="rap">
+					<label for="rap">Hip-Hop/Rap</label>
+					<br>
+				<input type="checkbox" id="classical" name="classical" value="classical">
+					<label for="classical">Classical</label>
+					<br>
+				<input type="checkbox" id="jazz" name="jazz" value="jazz">
+					<label for="jazz">Jazz</label>
+					<br>
+				<input type="checkbox" id="latin" name="latin" value="latin">
+					<label for="latin">Latin</label>
+					<br>
+				<input type="checkbox" id="other" name="other" value="other">
+					<label for="other">Other World/Folk Styles</label>
+					<br>
+				<input type="checkbox" id="electronic" name="electronic" value="electronic">
+					<label for="electronic">Electronic</label>
+		</div>
+		<div id="form-group">
+			<p id="prim-inst">Which of these best describes your primary instrument?</p>
+				<div id="radios">
+				<input id="woodwinds" type="radio" name="instrument-choice" value="WOODWINDS">
+					<label for="woodwinds">Woodwinds</label>
+					<br>
+				<input id="brass" type="radio" name="instrument-choice" value="BRASS">
+					<label for="brass">Brass</label>
+					<br>
+				<input id="drums" type="radio" name="instrument-choice" value="DRUMS">
+					<label for="drums">Drums/Percussion</label>
+					<br>
+				<input id="piano" type="radio" name="instrument-choice" value="PIANO">
+					<label for="piano">Piano/Keyboards</label>
+					<br>
+				<input id="guitar" type="radio" name="instrument-choice" value="GUITAR">
+					<label for="guitar">Guitar/Electric Bass</label>
+					<br>
+				<input id="strings" type="radio" name="instrument-choice" value="STRINGS">
+					<label for="strings">Strings</label>
+					<br>
+				<input id="other" type="radio" name="instrument-choice" value="OTHER">	
+					<label for="other">Other</label>
+					<br>
+				</div>
+
+		</div>
+		<div>
+			<p>Briefly describe the evolution of your musical preferences as they related to your education:</p>
+			<textarea name="comments" rows="8" cols="70" placeholder="eg. When I first started music lessons, my favorite genre was..."></textarea>
+		</div>
+		<div>
+			<button id="submit" type="submit">SUBMIT!</button>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>

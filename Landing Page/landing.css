@@ -1,0 +1,112 @@
+#header-img {
+  margin-right: 20px;
+  height: 40px;
+}
+
+body {
+  background-color: #ff9b54;
+  color: #4f000b;
+  font-family: roboto;
+}
+
+.navbar {
+  background-color: #ce4257;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 70px;
+  font-size: 4em;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+#email {
+  display: inline-block;
+  align-items: center;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  text-align: left;
+  margin: 40px auto;
+}
+
+.fas {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #720026;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+ 
+#video {
+  display: block;
+  margin: 30px auto;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  justify-content: center;
+}
+
+.product {
+  text-align: center;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #4f000b;
+  margin: 10px 1%;
+  padding: 0;
+}
+
+.material {
+  font-size: 2em;
+  text-transform: uppercase;
+  background-color: #ff7f51;
+  padding: 0;
+}
+
+ul ~ h2 {
+  font-size: 2em;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  display: block;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul ~ .btn {
+  width: 30%;
+  margin: 10px auto;
+}

@@ -1,0 +1,62 @@
+body {
+	background: #16222A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white; 
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	text-align: center;
+}
+
+#subtitle {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0;
+}
+
+#image {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#img-caption {
+font-size: 1.5em;
+margin: 0;
+}
+
+#credit {
+	color: rgba(160, 160, 255, 0.5);
+	margin: 0;
+}
+
+#tribute-info {
+	margin: 0 140px;
+	font-family: roboto;
+}
+
+ul {
+	font-size: 1.7em;
+	text-align: justify;
+}
+
+li {
+	margin: 0 0 18px 0;
+}
+ 
+#wiki {
+	font-size: 2em;	
+}
+
+ #tribute-link {
+ 	color: lightblue;
+ }
+
